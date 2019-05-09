@@ -25,7 +25,7 @@ import javax.swing.JOptionPane;
 
 public class StringMethods1 {
 	public static void main(String[] args) {
-		String Boo = "Boo you best move up otta mi face fo I nock u off yo feet u skinny foo";
+		String Boo = "Boy you best move up otta mi face fo I nock u off yo feet u skinny foo";
 		System.out.println(Boo.length());
 		
 		for(int i=0; i<Boo.length();i++) {
