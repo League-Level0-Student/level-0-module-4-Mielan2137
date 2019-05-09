@@ -1,4 +1,7 @@
 package charAt_scanners_optionDialogs;
+
+import javax.swing.JOptionPane;
+
 //    Copyright (c) The League of Amazing Programmers 2013-2017
 
 //    Level 0
@@ -22,12 +25,12 @@ package charAt_scanners_optionDialogs;
 
 public class StringMethods1 {
 	public static void main(String[] args) {
+		String Boo = "Boo you best move up otta mi face fo I nock u off yo feet u skinny foo";
+		System.out.println(Boo.length());
 		
-		String Animal = "Minisota beastiality bear";
-		System.out.println(Animal.length());
-		
-		for(int i=0; i<Animal.length(); i++){
-			System.out.println(Animal.charAt(i));
+		for(int i=0; i<Boo.length();i++) {
+			System.out.println(Boo.charAt(i));
 		}
 		}
-}
+		}
+
