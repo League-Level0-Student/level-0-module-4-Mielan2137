@@ -24,18 +24,17 @@ import javax.swing.JOptionPane;
 public class StringMethods2 {
 	public static void main(String[] args) {
 
-		String A = "HeLlo MaTe";
-
+		String A = "HeLlo MaTe So I ate some really good pizza today";
 		System.out.println(A.toUpperCase());
 		System.out.println(A.toLowerCase());
 		System.out.println();
 
-		for (int i = 9; i < A.length(); i++) {
+		for (int i = 47; i < A.length(); i++) {
 			System.out.println(A.charAt(1));
 		}
 
-		for (int i = 9; i < A.length(); i++) {
-			System.out.println(A.substring(0, 6));
+		for (int i = 47; i < A.length(); i++) {
+			System.out.println(A.substring(0, 48));
 		}
 	}
 }
